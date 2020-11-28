@@ -18,7 +18,7 @@ int main(int argc, const char * argv[]) {
     cout << "v1 egal v3 : " << (v1 == v3) << endl << "v1 different de v3 : " << (v1 != v3) << endl << endl;
     cout << "v4 egal v2 : " << (v4 == v2) << endl << "v4 different de v2 : " << (v4 != v2) << endl;
     
-    // Exercice 85
+    // Exercice 85 voir les fichiers sources ex_85.cpp et .hpp
     cout << endl;
     // Exercice 86
     vecteur3d_3 v1_3(5, 7, 3);
@@ -34,6 +34,8 @@ int main(int argc, const char * argv[]) {
         cout << v1_3[i];
     }
     cout << endl;
+    
+    // Exercice 87 modification aux fichiers source set_int.cpp et .hpp
     
     return 0;
 }
