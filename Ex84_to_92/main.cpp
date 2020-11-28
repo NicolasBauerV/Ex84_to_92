@@ -8,6 +8,7 @@
 #include <iostream>
 #include "ex_84.hpp"
 #include "ex_85.hpp"
+#include "ex_86.hpp"
 using namespace std;
 
 int main(int argc, const char * argv[]) {
@@ -18,6 +19,21 @@ int main(int argc, const char * argv[]) {
     cout << "v4 egal v2 : " << (v4 == v2) << endl << "v4 different de v2 : " << (v4 != v2) << endl;
     
     // Exercice 85
+    cout << endl;
+    // Exercice 86
+    vecteur3d_3 v1_3(5, 7, 3);
+    cout << "v1_3 = ";
+    for (int i = 0; i < 3; i++) {
+        cout << v1_3[i] << " ";
+    }
+    for (int i = 0; i < 3; i++) {
+        v1_3[i] = i;
+    }
+    for (int i = 0; i < 3; i++) {
+        cout << endl;
+        cout << v1_3[i];
+    }
+    cout << endl;
     
     return 0;
 }
