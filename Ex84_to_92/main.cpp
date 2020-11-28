@@ -9,6 +9,7 @@
 #include "ex_84.hpp"
 #include "ex_85.hpp"
 #include "ex_86.hpp"
+#include "set_int.hpp"
 using namespace std;
 
 int main(int argc, const char * argv[]) {
@@ -36,6 +37,10 @@ int main(int argc, const char * argv[]) {
     cout << endl;
     
     // Exercice 87 modification aux fichiers source set_int.cpp et .hpp
+    // Exercice 88
+    SetInt ent(10);
+    ent < 25 < 2 < 45 < 3; // with function operator '<'
+    cout << (ent[25]) << " " << (ent[3]) << endl;
     
     return 0;
 }
