@@ -6,24 +6,24 @@
 //
 
 #include "ex_85.hpp"
-float vecteur3d::getX() {
+float vecteur3d_2::getX() {
     return this->x;
 }
 
-float vecteur3d::getY() {
+float vecteur3d_2::getY() {
     return this->y;
 }
 
-float vecteur3d::getZ() {
+float vecteur3d_2::getZ() {
     return this->z;
 }
 
-vecteur3d operator + (vecteur3d v1, vecteur3d v2) {
-    vecteur3d result;
+vecteur3d_2 operator + (vecteur3d_2 v1, vecteur3d_2 v2) {
+    vecteur3d_2 result;
     result.x = v1.x + v2.x;
     result.y = v1.y + v2.y;
     return result;
 }
-float operator * (vecteur3d v1, vecteur3d v2) {
+float operator * (vecteur3d_2 v1, vecteur3d_2 v2) {
     return ((v1.x * v2.x) + (v1.y * v2.y) + (v1.z * v2.z));
 }

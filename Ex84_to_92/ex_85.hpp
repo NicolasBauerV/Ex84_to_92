@@ -9,16 +9,16 @@
 #define ex_85_hpp
 
 #include <iostream>
-class vecteur3d {
+class vecteur3d_2 {
     float x, y, z;
 public:
-    vecteur3d(float c1 = 0.0, float c2 = 0.0, float c3 = 0.0) {
+    vecteur3d_2(float c1 = 0.0, float c2 = 0.0, float c3 = 0.0) {
         x = c1;
         y = c2;
         z = c3;
     }
-    friend vecteur3d operator + (vecteur3d, vecteur3d);
-    friend float operator * (vecteur3d, vecteur3d);
+    friend vecteur3d_2 operator + (vecteur3d_2, vecteur3d_2);
+    friend float operator * (vecteur3d_2, vecteur3d_2);
     
     //Assesseurs
     float getX();

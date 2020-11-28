@@ -18,5 +18,6 @@ int main(int argc, const char * argv[]) {
     cout << "v4 egal v2 : " << (v4 == v2) << endl << "v4 different de v2 : " << (v4 != v2) << endl;
     
     // Exercice 85
+    
     return 0;
 }
