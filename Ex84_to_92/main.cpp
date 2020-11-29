@@ -12,6 +12,7 @@
 #include "set_int.hpp"
 #include "ex_89.hpp"
 #include "ex_90.hpp"
+#include "ex_91.hpp"
 
 
 using namespace std;
@@ -24,7 +25,7 @@ int main(int argc, const char * argv[]) {
     cout << "v4 egal v2 : " << (v4 == v2) << endl << "v4 different de v2 : " << (v4 != v2) << endl;
     
     // Exercice 85 voir les fichiers sources ex_85.cpp et .hpp
-    cout << endl;
+    cout << endl << endl;
     // Exercice 86
     vecteur3d_3 v1_3(5, 7, 3);
     cout << "v1_3 = ";
@@ -38,7 +39,7 @@ int main(int argc, const char * argv[]) {
         cout << endl;
         cout << v1_3[i];
     }
-    cout << endl;
+    cout << endl << endl;
     
     // Exercice 87 modification aux fichiers source set_int.cpp et .hpp
     // Exercice 88
@@ -77,6 +78,23 @@ int main(int argc, const char * argv[]) {
     for (int i = 0; i < 6; i++) {
         cout << v1_vect[i] << " ";
     }
+    
+    cout << endl << endl;
+    // Exercice 91
+    int2d tab1(4, 8);
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 8; i++) {
+            tab1(i, j) = i + j;
+        }
+    }
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 8; i++) {
+            cout << tab1(i, j) << " ";
+        }
+        cout << endl;
+    }
+    
+    cout << endl << endl;
     
     
     return 0;
