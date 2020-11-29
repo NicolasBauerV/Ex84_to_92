@@ -10,6 +10,9 @@
 #include "ex_85.hpp"
 #include "ex_86.hpp"
 #include "set_int.hpp"
+#include "ex_89.hpp"
+
+
 using namespace std;
 
 int main(int argc, const char * argv[]) {
@@ -41,6 +44,28 @@ int main(int argc, const char * argv[]) {
     SetInt ent(10);
     ent < 25 < 2 < 45 < 3; // with function operator '<'
     cout << (ent[25]) << " " << (ent[3]) << endl;
+    
+    // Exercice 89
+    vecteur_3d_4 v1_4(5, 7, 3);
+    const vecteur_3d_4 v2_4(5, 3, 1);
+    cout << "v1_4: ";
+    for (int i = 0; i < 3; i++) {
+        cout << v1_4[i] << " ";
+    }
+    cout << endl;
+    cout << "v2_4: ";
+    for (int i = 0; i < 3; i++) {
+        cout << v2_4[i] << " ";
+    }
+    for (int i = 0; i < 3; i++) {
+        v1_4[i] = i;
+    }
+    cout << endl;
+    cout << "v1_4: ";
+    for (int i = 0; i < 3; i++) {
+        cout << v1_4[i] << "";
+    }
+    // le deuxième vecteur est bien rejeté
     
     return 0;
 }
