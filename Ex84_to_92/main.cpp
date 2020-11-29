@@ -11,6 +11,7 @@
 #include "ex_86.hpp"
 #include "set_int.hpp"
 #include "ex_89.hpp"
+#include "ex_90.hpp"
 
 
 using namespace std;
@@ -66,6 +67,17 @@ int main(int argc, const char * argv[]) {
         cout << v1_4[i] << "";
     }
     // le deuxième vecteur est bien rejeté
+    cout << endl << endl;
+    
+    //Exercice 90
+    vect v1_vect(4);
+    for (int i = 0; i < 6; i++) {
+        v1_vect[i] = i;
+    }
+    for (int i = 0; i < 6; i++) {
+        cout << v1_vect[i] << " ";
+    }
+    
     
     return 0;
 }
