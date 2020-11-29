@@ -15,6 +15,7 @@
 		8D7D3EB225743A08000AC957 /* ex_89.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D7D3EB025743A08000AC957 /* ex_89.cpp */; };
 		8D7D3EB625743F17000AC957 /* ex_90.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D7D3EB425743F17000AC957 /* ex_90.cpp */; };
 		8D7D3EBA257441C1000AC957 /* ex_91.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D7D3EB8257441C1000AC957 /* ex_91.cpp */; };
+		8D7D3EBE2574463A000AC957 /* ex_92.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D7D3EBC2574463A000AC957 /* ex_92.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +47,8 @@
 		8D7D3EB525743F17000AC957 /* ex_90.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ex_90.hpp; sourceTree = "<group>"; };
 		8D7D3EB8257441C1000AC957 /* ex_91.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ex_91.cpp; sourceTree = "<group>"; };
 		8D7D3EB9257441C1000AC957 /* ex_91.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ex_91.hpp; sourceTree = "<group>"; };
+		8D7D3EBC2574463A000AC957 /* ex_92.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ex_92.cpp; sourceTree = "<group>"; };
+		8D7D3EBD2574463A000AC957 /* ex_92.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ex_92.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				8D7D3EB525743F17000AC957 /* ex_90.hpp */,
 				8D7D3EB8257441C1000AC957 /* ex_91.cpp */,
 				8D7D3EB9257441C1000AC957 /* ex_91.hpp */,
+				8D7D3EBC2574463A000AC957 /* ex_92.cpp */,
+				8D7D3EBD2574463A000AC957 /* ex_92.hpp */,
 			);
 			path = Ex84_to_92;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 				8D4D47112572C9D400D93444 /* set_int.cpp in Sources */,
 				8D4D47082572AD5C00D93444 /* ex_85.cpp in Sources */,
 				8D4D46F6257297F600D93444 /* main.cpp in Sources */,
+				8D7D3EBE2574463A000AC957 /* ex_92.cpp in Sources */,
 				8D7D3EB625743F17000AC957 /* ex_90.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

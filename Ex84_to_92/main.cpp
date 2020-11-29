@@ -13,11 +13,13 @@
 #include "ex_89.hpp"
 #include "ex_90.hpp"
 #include "ex_91.hpp"
+#include "ex_92.hpp"
 
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
+
     // Exercice 84
     vecteur3d v1(4, 2, 1), v2(7, 4, 6), v3(8, 5, 3), v4(4, 2, 1);
     cout << "v1 egal v2 : " << (v1 == v2) << endl << "v1 different de v2 : " << (v1 != v2) << endl << endl;
@@ -80,6 +82,7 @@ int main(int argc, const char * argv[]) {
     }
     
     cout << endl << endl;
+    
     // Exercice 91
     int2d tab1(4, 8);
     for (int i = 0; i < 4; i++) {
@@ -96,6 +99,17 @@ int main(int argc, const char * argv[]) {
     
     cout << endl << endl;
     
-    
+    // Exercice 92
+    const int n_tranche = 4;
+    histo h(0.0, 5.0, n_tranche);
+    h << 1.5 << 2.4 << 3.8 << 3.0 << 2.0 << 3.5 << 2.8 << 4.6;
+    h << 12.0 << -3.5;
+    for (int i = 0; i < 10; i++) {
+        h << i / 2.0;
+    }
+    cout << "valeurs des tranches" << endl;
+    for (int i = 1; i <= n_tranche; i++) {
+        cout << "numéro " << i << " : " << h[i] << endl;
+    }
     return 0;
 }
